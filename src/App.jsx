@@ -1,11 +1,13 @@
 import { Header } from './components/Header';
-import { Tasks } from './components/Tasks';
+import { TaskList } from './components/TaskList';
+import { TasksForm } from './components/TasksForm';
 import './global.css';
 function App() {
   return (
     <div>
       <Header />
-      <Tasks />
+      <TasksForm />
+      <TaskList />
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import { PlusCircle } from 'phosphor-react';
-import styles from './Tasks.module.css';
+import styles from './TasksForm.module.css';
 
-export function Tasks() {
+export function TasksForm() {
   return (
     <>
-      <div className={styles.tasks}>
+      <div className={styles.tasksFormContainer}>
         <form action='' className={styles.taskForm}>
           {/* <p>hola</p>
           <p>mundo</p> */}
@@ -13,7 +13,7 @@ export function Tasks() {
             placeholder='Ingresa una nueva tarea'
             className={styles.taskInput}
           />
-          <button className={styles.taskButton}>
+          <button className={styles.taskFormButton}>
             Crear
             {<PlusCircle size={20} />}
           </button>

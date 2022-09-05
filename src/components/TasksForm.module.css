@@ -1,4 +1,4 @@
-.tasks {
+.tasksFormContainer {
   margin-top: -2rem;
   display: flex;
   width: 100%;
@@ -24,7 +24,7 @@
   color: var(--gray-300);
 }
 
-.taskButton {
+.taskFormButton {
   width: 5.6rem;
   height: 3.37rem;
   padding: 2rem;
